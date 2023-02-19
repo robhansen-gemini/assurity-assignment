@@ -1,5 +1,4 @@
 *.jtl
 2023-*
 *.log
-logs
 testdata.csv
