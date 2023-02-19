@@ -68,7 +68,7 @@ The failures were caused by the assertion of the CanRelist value being false:
   ![](report/graph-2.png)
 
 
-**Percentile response times**
+**Percentile Response Times**
 
 Percentile response times for the GET Category Details API call are shown below:
 
@@ -86,7 +86,8 @@ Most of the time of the call is taken up by network latency, and this behaviour 
   ![](report/graph-5.png)
 
 
-Latency is defined as the time from just before sending the request to just after receiving the first part of the response, whereas response time is the time from just before sending the request to just after receiving the last part of the response, and therefore includes server processing time. The graphs show that server processing time only adds a fraction of additional time to the request (<10ms).
+Latency is defined as the time from just before sending the request to just after receiving the first part of the response, and provides an idea of network delay time.
+Response time is the time from just before sending the request to just after receiving the last part of the response, and unlike latency includes server processing time. The graphs show that server processing time only adds a fraction of additional time to the request (<10ms).
 
 
 
