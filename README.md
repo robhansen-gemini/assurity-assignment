@@ -26,7 +26,7 @@ git clone https://github.com/robhansen-gemini/assurity-assignment.git
 Navigate to the root directory where the project was cloned, and run this command:
 
 ```bash
-jmeter -f -n -t C:\projects\assurity\assurity-assignment.jmx -l C:\projects\assurity\run.jtl -Jthreads=5 -Jrampup=5 -Jduration=60 -Jthroughput=10.0 -e -o C:\projects\assurity\logs
+jmeter -f -n -t assurity-assignment.jmx -l \logs\run.jtl -Jthreads=5 -Jrampup=5 -Jduration=60 -Jthroughput=10.0 -e -o \logs
 ```
 
 View Dashboard using this url:
