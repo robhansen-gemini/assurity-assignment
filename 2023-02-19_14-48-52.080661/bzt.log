@@ -1,0 +1,353 @@
+[2023-02-19 14:48:52,031 INFO root] Taurus CLI Tool v1.16.19
+[2023-02-19 14:48:52,031 DEBUG root] Build: 14436 Mon Dec  5 12:09:20 UTC 2022
+[2023-02-19 14:48:52,031 DEBUG root] Extended git info:  bb651359 Release Notes (#1695)
+[2023-02-19 14:48:52,031 DEBUG root] Command-line options: {'log': 'C:\\Users\\ROB~1.HAN\\AppData\\Local\\Temp\\bzt_ont1aebz.log', 'option': None, 'quiet': None, 'verbose': None, 'no_system_configs': None, 'aliases': []}
+[2023-02-19 14:48:52,031 DEBUG root] Python: CPython 3.11.2
+[2023-02-19 14:48:52,031 DEBUG root] OS: uname_result(system='Windows', node='robh', release='10', version='10.0.22621', machine='AMD64')
+[2023-02-19 14:48:52,031 DEBUG root] Path to interpreter: C:\Users\Rob.Hansen\AppData\Local\Programs\Python\Python311\python.exe
+[2023-02-19 14:48:52,031 DEBUG root] Path to packages: ['C:\\Users\\Rob.Hansen\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\bzt.exe', 'C:\\Users\\Rob.Hansen\\AppData\\Local\\Programs\\Python\\Python311\\python311.zip', 'C:\\Users\\Rob.Hansen\\AppData\\Local\\Programs\\Python\\Python311\\DLLs', 'C:\\Users\\Rob.Hansen\\AppData\\Local\\Programs\\Python\\Python311\\Lib', 'C:\\Users\\Rob.Hansen\\AppData\\Local\\Programs\\Python\\Python311', 'C:\\Users\\Rob.Hansen\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages']
+[2023-02-19 14:48:52,031 DEBUG root] Default python: C:\Users\Rob.Hansen\AppData\Local\Programs\Python\Python311\python.EXE
+[2023-02-19 14:48:52,031 DEBUG root] Default python3: C:\Users\Rob.Hansen\AppData\Local\Microsoft\WindowsApps\python3.EXE
+[2023-02-19 14:48:52,031 DEBUG root] Using personal config: C:\Users\Rob.Hansen\.bzt-rc
+[2023-02-19 14:48:52,031 INFO root] Starting with configs: ['C:\\Users\\Rob.Hansen\\.bzt-rc', 'taurus-run.yml', 'passfail.yml']
+[2023-02-19 14:48:52,031 INFO Engine] Configuring...
+[2023-02-19 14:48:52,063 DEBUG Engine] Base configs list: ['C:\\Users\\Rob.Hansen\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\bzt\\resources/10-base-config.yml']
+[2023-02-19 14:48:52,063 DEBUG Engine.Configuration] Configs: ['C:\\Users\\Rob.Hansen\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\bzt\\resources/10-base-config.yml']
+[2023-02-19 14:48:52,063 DEBUG Engine.Configuration] Reading C:\Users\Rob.Hansen\AppData\Local\Programs\Python\Python311\Lib\site-packages\bzt\resources/10-base-config.yml as YAML
+[2023-02-19 14:48:52,080 DEBUG Engine] User configs list: ['C:\\Users\\Rob.Hansen\\.bzt-rc', 'taurus-run.yml', 'passfail.yml']
+[2023-02-19 14:48:52,080 DEBUG Engine.Configuration] Configs: ['C:\\Users\\Rob.Hansen\\.bzt-rc', 'taurus-run.yml', 'passfail.yml']
+[2023-02-19 14:48:52,080 DEBUG Engine.Configuration] Reading C:\Users\Rob.Hansen\.bzt-rc as YAML
+[2023-02-19 14:48:52,080 DEBUG Engine.Configuration] Reading taurus-run.yml as YAML
+[2023-02-19 14:48:52,080 DEBUG Engine.Configuration] Reading passfail.yml as YAML
+[2023-02-19 14:48:52,080 DEBUG Engine.Configuration] Configs: ['C:\\Users\\Rob.Hansen\\.bzt-rc', 'taurus-run.yml', 'passfail.yml']
+[2023-02-19 14:48:52,080 DEBUG Engine.Configuration] Reading C:\Users\Rob.Hansen\.bzt-rc as YAML
+[2023-02-19 14:48:52,080 DEBUG Engine.Configuration] Reading taurus-run.yml as YAML
+[2023-02-19 14:48:52,080 DEBUG Engine.Configuration] Reading passfail.yml as YAML
+[2023-02-19 14:48:52,080 DEBUG Engine] Requesting updates info: https://gettaurus.org/updates/?version=1.16.19&installID=windows-b42e99ff41fa
+[2023-02-19 14:48:52,080 INFO Engine] Artifacts dir: C:\projects\assurity\2023-02-19_14-48-52.080661
+[2023-02-19 14:48:52,080 DEBUG HTTPClient] Making HTTP request GET https://gettaurus.org/updates/?version=1.16.19&installID=windows-b42e99ff41fa
+[2023-02-19 14:48:52,080 DEBUG Engine] New artifact filename: C:\projects\assurity\2023-02-19_14-48-52.080661\effective
+[2023-02-19 14:48:52,080 DEBUG Engine.Configuration] Dumping YAML config into C:\projects\assurity\2023-02-19_14-48-52.080661\effective.yml
+[2023-02-19 14:48:52,094 DEBUG Engine.Configuration] Dumping JSON config into C:\projects\assurity\2023-02-19_14-48-52.080661\effective.json
+[2023-02-19 14:48:52,094 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): gettaurus.org:443
+[2023-02-19 14:48:52,094 DEBUG Engine] New artifact filename: C:\projects\assurity\2023-02-19_14-48-52.080661\merged.yml
+[2023-02-19 14:48:52,094 DEBUG Engine.Configuration] Dumping YAML config into C:\projects\assurity\2023-02-19_14-48-52.080661\merged.yml
+[2023-02-19 14:48:52,094 DEBUG Engine] New artifact filename: C:\projects\assurity\2023-02-19_14-48-52.080661\merged.json
+[2023-02-19 14:48:52,094 DEBUG Engine.Configuration] Dumping JSON config into C:\projects\assurity\2023-02-19_14-48-52.080661\merged.json
+[2023-02-19 14:48:52,094 DEBUG Engine] Add existing artifact (move=False): C:\Users\Rob.Hansen\.bzt-rc
+[2023-02-19 14:48:52,094 DEBUG Engine] Copying C:\Users\Rob.Hansen\.bzt-rc to C:\projects\assurity\2023-02-19_14-48-52.080661\.bzt-rc
+[2023-02-19 14:48:52,094 DEBUG Engine] Add existing artifact (move=False): taurus-run.yml
+[2023-02-19 14:48:52,094 DEBUG Engine] Copying taurus-run.yml to C:\projects\assurity\2023-02-19_14-48-52.080661\taurus-run.yml
+[2023-02-19 14:48:52,094 DEBUG Engine] Add existing artifact (move=False): passfail.yml
+[2023-02-19 14:48:52,094 DEBUG Engine] Copying passfail.yml to C:\projects\assurity\2023-02-19_14-48-52.080661\passfail.yml
+[2023-02-19 14:48:52,094 DEBUG Engine] Set PYTHONPATH to :
+	CURRENT: '' +
+	TEMP: 'C:\projects\assurity\2023-02-19_14-48-52.080661\python-packages\3.11.2' +
+	USER: 'C:\Users\Rob.Hansen\.bzt\python-packages\3.11.2'
+[2023-02-19 14:48:52,094 DEBUG Engine] Content of user packages dir: []
+[2023-02-19 14:48:52,094 DEBUG Engine] OS env: OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
+[2023-02-19 14:48:52,094 DEBUG Engine] OS env: TAURUS_ARTIFACTS_DIR=C:\projects\assurity\2023-02-19_14-48-52.080661
+[2023-02-19 14:48:52,094 DEBUG root] Closing log handler: C:\Users\ROB~1.HAN\AppData\Local\Temp\bzt_ont1aebz.log
+[2023-02-19 14:48:52,094 DEBUG root] Switched writing logs to C:\projects\assurity\2023-02-19_14-48-52.080661\bzt.log
+[2023-02-19 14:48:52,094 DEBUG root] Linting config
+[2023-02-19 14:48:52,094 INFO Engine] Preparing...
+[2023-02-19 14:48:52,094 DEBUG Engine] Module config: consolidator {'class': 'bzt.modules.aggregator.ConsolidatingAggregator'}
+[2023-02-19 14:48:52,094 DEBUG root] Importing module: bzt.modules.aggregator
+[2023-02-19 14:48:52,236 DEBUG root] Loading class: 'ConsolidatingAggregator' from <module 'bzt.modules.aggregator' from 'C:\\Users\\Rob.Hansen\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\bzt\\modules\\aggregator.py'>
+[2023-02-19 14:48:52,236 DEBUG Engine.consolidator] Buffer scaling setup: percentile 95.0 from [0.0, 50.0, 90.0, 95.0, 99.0, 99.9, 100.0] selected
+[2023-02-19 14:48:52,236 DEBUG Engine] Module config: monitoring {'class': 'bzt.modules.monitoring.Monitoring'}
+[2023-02-19 14:48:52,236 DEBUG root] Importing module: bzt.modules.monitoring
+[2023-02-19 14:48:52,236 DEBUG root] Loading class: 'Monitoring' from <module 'bzt.modules.monitoring' from 'C:\\Users\\Rob.Hansen\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\bzt\\modules\\monitoring.py'>
+[2023-02-19 14:48:52,236 DEBUG Engine] Module config: local {'class': 'bzt.modules.provisioning.Local'}
+[2023-02-19 14:48:52,236 DEBUG root] Importing module: bzt.modules.provisioning
+[2023-02-19 14:48:52,236 DEBUG root] Loading class: 'Local' from <module 'bzt.modules.provisioning' from 'C:\\Users\\Rob.Hansen\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\bzt\\modules\\provisioning.py'>
+[2023-02-19 14:48:52,236 DEBUG Engine] Module config: jmeter {'class': 'bzt.modules.jmeter.JMeterExecutor', 'protocol-handlers': {'http': 'bzt.jmx.http.HTTPProtocolHandler', 'mqtt': 'bzt.jmx.mqtt.MQTTProtocolHandler'}, 'plugins': ['jpgc-casutg', 'jpgc-dummy', 'jpgc-ffw', 'jpgc-fifo', 'jpgc-functions', 'jpgc-json', 'jpgc-perfmon', 'jpgc-prmctl', 'jpgc-tst'], 'properties': {'jmeter.save.saveservice.autoflush': 'true', 'jmeter.save.saveservice.connect_time': 'true', 'jmeterengine.force.system.exit': 'true', 'summariser.name': ''}}
+[2023-02-19 14:48:52,236 DEBUG root] Importing module: bzt.modules.jmeter
+[2023-02-19 14:48:52,236 DEBUG root] Loading class: 'JMeterExecutor' from <module 'bzt.modules.jmeter' from 'C:\\Users\\Rob.Hansen\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\bzt\\modules\\jmeter.py'>
+[2023-02-19 14:48:52,236 DEBUG Engine.local] Preparing executor: jmeter/2537688736720
+[2023-02-19 14:48:52,236 DEBUG Engine] New artifact filename: C:\projects\assurity\2023-02-19_14-48-52.080661\jmeter.log
+[2023-02-19 14:48:52,236 DEBUG Engine.jmeter] Checking if port 4445 is free
+[2023-02-19 14:48:52,236 DEBUG Engine.jmeter] Port 4445 is free
+[2023-02-19 14:48:52,236 DEBUG Engine.jmeter] Using port 4445 for management
+[2023-02-19 14:48:52,236 DEBUG Engine.jmeter] Getting Jmeter version.
+[2023-02-19 14:48:52,236 DEBUG Engine.jmeter] Autodetect version is enabled
+[2023-02-19 14:48:52,236 DEBUG Engine.jmeter] JMeter version: 5.4.3
+[2023-02-19 14:48:52,251 DEBUG Engine.jmeter] Additional properties: {'jmeter.save.saveservice.autoflush': 'true', 'jmeter.save.saveservice.connect_time': 'true', 'jmeterengine.force.system.exit': 'true', 'summariser.name': '', 'jmeterengine.nongui.port': 4445, 'jmeterengine.nongui.maxport': 4445, 'jmeter.save.saveservice.timestamp_format': 'ms', 'sampleresult.default.encoding': 'UTF-8', 'user.classpath': 'C:/projects/assurity/2023-02-19_14-48-52.080661;C:/projects/assurity'}
+[2023-02-19 14:48:52,251 DEBUG Engine] New artifact filename: C:\projects\assurity\2023-02-19_14-48-52.080661\jmeter-bzt.properties
+[2023-02-19 14:48:52,252 DEBUG Engine.jmeter.JavaVM] Trying JavaVM: ['java', '-version']
+[2023-02-19 14:48:52,252 DEBUG root] Executing shell: ['java', '-version'] at .
+[2023-02-19 14:48:52,321 DEBUG Engine.jmeter.JavaVM] JavaVM output: java version "1.8.0_361"
+Java(TM) SE Runtime Environment (build 1.8.0_361-b09)
+Java HotSpot(TM) 64-Bit Server VM (build 25.361-b09, mixed mode)
+
+[2023-02-19 14:48:52,321 DEBUG Engine.jmeter.TclLibrary] Checking if TCL_LIBRARY variable is present in environment
+[2023-02-19 14:48:52,321 DEBUG Engine.jmeter.TclLibrary] TCL_LIBRARY environment variable is not present
+[2023-02-19 14:48:52,321 DEBUG Engine.jmeter.TclLibrary] Tcl directory was found: C:\Users\Rob.Hansen\AppData\Local\Programs\Python\Python311\tcl\tcl8.6
+[2023-02-19 14:48:52,321 DEBUG Engine.jmeter.TclLibrary] Setting environment TCL_LIBRARY=C:\Users\Rob.Hansen\AppData\Local\Programs\Python\Python311\tcl\tcl8.6
+[2023-02-19 14:48:52,321 DEBUG Engine.jmeter.TclLibrary] Checking if TCL_LIBRARY variable is present in environment
+[2023-02-19 14:48:52,321 DEBUG Engine.jmeter.TclLibrary] TCL_LIBRARY environment variable is present
+[2023-02-19 14:48:52,321 DEBUG Engine.jmeter.JMeter] Trying JMeter..
+[2023-02-19 14:48:52,321 DEBUG root] Executing shell: ['C:\\Users\\Rob.Hansen\\.bzt\\jmeter-taurus\\5.4.3\\bin\\jmeter.bat', '-j', 'C:\\Users\\ROB~1.HAN\\AppData\\Local\\Temp\\jmeter53fx4fbllog', '--version'] at .
+[2023-02-19 14:48:52,708 DEBUG HTTPClient] Request resulted in exception: Traceback (most recent call last):
+  File "C:\Users\Rob.Hansen\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rob.Hansen\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\Rob.Hansen\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "C:\Users\Rob.Hansen\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 414, in connect
+    self.sock = ssl_wrap_socket(
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\Rob.Hansen\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rob.Hansen\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rob.Hansen\AppData\Local\Programs\Python\Python311\Lib\ssl.py", line 517, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rob.Hansen\AppData\Local\Programs\Python\Python311\Lib\ssl.py", line 1075, in _create
+    self.do_handshake()
+  File "C:\Users\Rob.Hansen\AppData\Local\Programs\Python\Python311\Lib\ssl.py", line 1346, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Rob.Hansen\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Rob.Hansen\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rob.Hansen\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='gettaurus.org', port=443): Max retries exceeded with url: /updates/?version=1.16.19&installID=windows-b42e99ff41fa (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Rob.Hansen\AppData\Local\Programs\Python\Python311\Lib\site-packages\bzt\utils.py", line 1233, in request
+    return self.session.request(method, url, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rob.Hansen\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rob.Hansen\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rob.Hansen\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 563, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='gettaurus.org', port=443): Max retries exceeded with url: /updates/?version=1.16.19&installID=windows-b42e99ff41fa (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')))
+
+[2023-02-19 14:48:52,708 DEBUG Engine] Failed to check for updates: Traceback (most recent call last):
+  File "C:\Users\Rob.Hansen\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rob.Hansen\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\Rob.Hansen\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "C:\Users\Rob.Hansen\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 414, in connect
+    self.sock = ssl_wrap_socket(
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\Rob.Hansen\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rob.Hansen\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rob.Hansen\AppData\Local\Programs\Python\Python311\Lib\ssl.py", line 517, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rob.Hansen\AppData\Local\Programs\Python\Python311\Lib\ssl.py", line 1075, in _create
+    self.do_handshake()
+  File "C:\Users\Rob.Hansen\AppData\Local\Programs\Python\Python311\Lib\ssl.py", line 1346, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Rob.Hansen\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Rob.Hansen\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rob.Hansen\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='gettaurus.org', port=443): Max retries exceeded with url: /updates/?version=1.16.19&installID=windows-b42e99ff41fa (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Rob.Hansen\AppData\Local\Programs\Python\Python311\Lib\site-packages\bzt\utils.py", line 1233, in request
+    return self.session.request(method, url, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rob.Hansen\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rob.Hansen\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rob.Hansen\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 563, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='gettaurus.org', port=443): Max retries exceeded with url: /updates/?version=1.16.19&installID=windows-b42e99ff41fa (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Rob.Hansen\AppData\Local\Programs\Python\Python311\Lib\site-packages\bzt\engine\engine.py", line 732, in _check_updates
+    response = client.request('GET', addr, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rob.Hansen\AppData\Local\Programs\Python\Python311\Lib\site-packages\bzt\utils.py", line 1240, in request
+    raise TaurusNetworkError(msg)
+bzt.TaurusNetworkError: Request to https://gettaurus.org/updates/?version=1.16.19&installID=windows-b42e99ff41fa failed
+
+[2023-02-19 14:48:52,708 WARNING Engine] Failed to check for updates
+[2023-02-19 14:48:53,194 DEBUG Engine.jmeter.JMeter] JMeter check:     _    ____   _    ____ _   _ _____       _ __  __ _____ _____ _____ ____
+   / \  |  _ \ / \  / ___| | | | ____|     | |  \/  | ____|_   _| ____|  _ \
+  / _ \ | |_) / _ \| |   | |_| |  _|    _  | | |\/| |  _|   | | |  _| | |_) |
+ / ___ \|  __/ ___ \ |___|  _  | |___  | |_| | |  | | |___  | | | |___|  _ <
+/_/   \_\_| /_/   \_\____|_| |_|_____|  \___/|_|  |_|_____| |_| |_____|_| \_\ 5.4.3
+
+Copyright (c) 1999-2021 The Apache Software Foundation
+
+ / 
+[2023-02-19 14:48:53,194 DEBUG Engine] New artifact filename: C:\projects\assurity\2023-02-19_14-48-52.080661\kpi.jtl
+[2023-02-19 14:48:53,194 DEBUG Engine] New artifact filename: C:\projects\assurity\2023-02-19_14-48-52.080661\error.jtl
+[2023-02-19 14:48:53,194 INFO Engine.jmeter] 1 obsolete CookieManagers are found and fixed
+[2023-02-19 14:48:53,194 DEBUG Engine.jmeter.LoadSettingsProcessor] Load: LoadSpec(concurrency=None, throughput=None, ramp_up=None, hold=0, iterations=1, duration=None, steps=None)
+[2023-02-19 14:48:53,194 DEBUG Engine.jmeter.LoadSettingsProcessor] Thread group detection: duration not found, regular ThreadGroup will be used
+[2023-02-19 14:48:53,194 DEBUG Engine.jmeter.LoadSettingsProcessor] No iterations/concurrency/duration found, thread group modification is skipped
+[2023-02-19 14:48:53,194 DEBUG JMX] Saving JMX to: C:\projects\assurity\modified_assurity-assignment.jmx
+[2023-02-19 14:48:53,194 DEBUG root] Executing shell: ['C:\\Users\\Rob.Hansen\\.bzt\\jmeter-taurus\\5.4.3\\bin\\PluginsManagerCMD.bat', 'install-for-jmx', 'C:\\projects\\assurity\\modified_assurity-assignment.jmx'] at .
+[2023-02-19 14:48:55,705 DEBUG Engine.jmeter.JMeter] Try to detect plugins for C:\projects\assurity\modified_assurity-assignment.jmx
+2023-02-19 14:48:53,831 INFO o.j.r.PluginManagerCMD: Command is: install-for-jmx
+2023-02-19 14:48:54,100 INFO o.j.r.JARSourceHTTP: Found cached repo
+2023-02-19 14:48:54,256 INFO o.j.r.PluginManager: Plugins Status: [jpgc-functions=2.2, jpgc-casutg=2.10, jpgc-dummy=0.4, jpgc-ffw=2.0, jpgc-fifo=0.2, jpgc-json=2.7, jpgc-prmctl=0.4, jpgc-perfmon=2.1, jpgc-plugins-manager=1.7, jpgc-tst=2.5, jmeter-core=5.4.3, jmeter-ftp=5.4.3, jmeter-http=5.4.3, jmeter-jdbc=5.4.3, jmeter-jms=5.4.3, jmeter-junit=5.4.3, jmeter-java=5.4.3, jmeter-ldap=5.4.3, jmeter-mail=5.4.3, jmeter-mongodb=5.4.3, jmeter-native=5.4.3, jmeter-tcp=5.4.3, jmeter-components=5.4.3]
+2023-02-19 14:48:54,256 INFO o.j.r.PluginManagerCMD: Params line is: C:\projects\assurity\modified_assurity-assignment.jmx
+2023-02-19 14:48:54,444 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2023-02-19 14:48:54,461 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2023-02-19 14:48:54,461 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2023-02-19 14:48:54,491 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2023-02-19 14:48:54,491 INFO o.a.j.p.h.c.CacheManager: Will only cache the following methods: [GET]
+2023-02-19 14:48:54,491 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2023-02-19 14:48:54,491 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2023-02-19 14:48:54,491 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2023-02-19 14:48:54,491 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2023-02-19 14:48:54,570 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-02-19 14:48:54,570 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-02-19 14:48:54,570 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-02-19 14:48:54,570 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-02-19 14:48:54,570 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2023-02-19 14:48:54,570 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2023-02-19 14:48:54,611 INFO o.j.r.PluginManager: Finishing without changes
+
+
+[2023-02-19 14:48:55,705 DEBUG Engine] New artifact filename: C:\projects\assurity\2023-02-19_14-48-52.080661\jmeter.out
+[2023-02-19 14:48:55,705 DEBUG Engine] New artifact filename: C:\projects\assurity\2023-02-19_14-48-52.080661\jmeter.err
+[2023-02-19 14:48:55,705 DEBUG Engine] Module config: final-stats {'class': 'bzt.modules.reporting.FinalStatus'}
+[2023-02-19 14:48:55,705 DEBUG root] Importing module: bzt.modules.reporting
+[2023-02-19 14:48:55,721 DEBUG root] Loading class: 'FinalStatus' from <module 'bzt.modules.reporting' from 'C:\\Users\\Rob.Hansen\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\bzt\\modules\\reporting.py'>
+[2023-02-19 14:48:55,721 DEBUG Engine] Module config: console {'class': 'bzt.modules.console.ConsoleStatusReporter'}
+[2023-02-19 14:48:55,721 DEBUG root] Importing module: bzt.modules.console
+[2023-02-19 14:48:55,721 DEBUG root] Loading class: 'ConsoleStatusReporter' from <module 'bzt.modules.console' from 'C:\\Users\\Rob.Hansen\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\bzt\\modules\\console.py'>
+[2023-02-19 14:48:55,721 DEBUG Engine] Module config: passfail {'class': 'bzt.modules.passfail.PassFailStatus'}
+[2023-02-19 14:48:55,721 DEBUG root] Importing module: bzt.modules.passfail
+[2023-02-19 14:48:55,721 DEBUG root] Loading class: 'PassFailStatus' from <module 'bzt.modules.passfail' from 'C:\\Users\\Rob.Hansen\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\bzt\\modules\\passfail.py'>
+[2023-02-19 14:48:55,721 DEBUG Engine.console] Can't use 'console' screen, trying 'gui'
+[2023-02-19 14:48:55,727 DEBUG root] Importing module: bzt.modules.passfail
+[2023-02-19 14:48:55,727 DEBUG root] Loading class: 'DataCriterion' from <module 'bzt.modules.passfail' from 'C:\\Users\\Rob.Hansen\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\bzt\\modules\\passfail.py'>
+[2023-02-19 14:48:55,727 DEBUG Engine.Configuration] Dumping YAML config into C:\projects\assurity\2023-02-19_14-48-52.080661\effective.yml
+[2023-02-19 14:48:55,737 DEBUG Engine.Configuration] Dumping JSON config into C:\projects\assurity\2023-02-19_14-48-52.080661\effective.json
+[2023-02-19 14:48:55,737 INFO Engine] Starting...
+[2023-02-19 14:48:55,737 DEBUG Engine] Startup <bzt.modules.monitoring.Monitoring object at 0x0000024ED9E4C550>
+[2023-02-19 14:48:55,737 DEBUG Engine] Startup <bzt.modules.aggregator.ConsolidatingAggregator object at 0x0000024ED9E3D3D0>
+[2023-02-19 14:48:55,737 DEBUG Engine] Startup <bzt.modules.reporting.FinalStatus object at 0x0000024EC3651750>
+[2023-02-19 14:48:55,737 DEBUG Engine] Startup <bzt.modules.console.ConsoleStatusReporter object at 0x0000024EDA130D50>
+[2023-02-19 14:48:55,737 INFO Engine.console] Waiting for results...
+[2023-02-19 14:48:55,737 DEBUG Engine] Startup <bzt.modules.passfail.PassFailStatus object at 0x0000024EDA212190>
+[2023-02-19 14:48:55,737 DEBUG Engine] Startup <bzt.modules.provisioning.Local object at 0x0000024EDA092010>
+[2023-02-19 14:48:55,737 DEBUG Engine.local] Delay setup for jmeter/s1: 0(start-at) + 0(delay) = 0
+[2023-02-19 14:48:55,737 DEBUG Engine.Configuration] Dumping YAML config into C:\projects\assurity\2023-02-19_14-48-52.080661\effective.yml
+[2023-02-19 14:48:55,737 DEBUG Engine.Configuration] Dumping JSON config into C:\projects\assurity\2023-02-19_14-48-52.080661\effective.json
+[2023-02-19 14:48:55,737 DEBUG root] Leveling down log file verbosity to INFO, use -v option to have DEBUG messages enabled
+[2023-02-19 14:48:55,737 DEBUG root] Leveled up log file verbosity
+[2023-02-19 14:48:55,737 DEBUG Engine] New artifact filename: C:\projects\assurity\2023-02-19_14-48-52.080661\GRACEFUL
+[2023-02-19 14:48:55,737 DEBUG root] Executing shell: ['C:\\Users\\Rob.Hansen\\.bzt\\jmeter-taurus\\5.4.3\\bin\\jmeter.bat', '-t', 'C:\\projects\\assurity\\modified_assurity-assignment.jmx', '-j', 'C:\\projects\\assurity\\2023-02-19_14-48-52.080661\\jmeter.log', '-q', 'C:\\projects\\assurity\\2023-02-19_14-48-52.080661\\jmeter-bzt.properties', '-n'] at C:\projects\assurity
+[2023-02-19 14:48:55,754 DEBUG Engine.local] Starting execution: jmeter/s1, rest of available slots: 9223372036854775806
+[2023-02-19 14:48:55,754 DEBUG root] Leveling down log file verbosity to INFO, use -v option to have DEBUG messages enabled
+[2023-02-19 14:48:55,983 INFO Engine.console] Did not mute console logging
+[2023-02-19 14:48:56,077 INFO Engine.console] Waiting for finish...
+[2023-02-19 14:49:56,929 WARNING Engine] Please wait for graceful shutdown...
+[2023-02-19 14:49:56,929 DEBUG root] Leveled up log file verbosity
+[2023-02-19 14:49:56,929 INFO Engine] Shutting down...
+[2023-02-19 14:49:56,929 DEBUG Engine] Current stop reason: None
+[2023-02-19 14:49:56,944 DEBUG Engine.local] Shutdown jmeter/s1
+[2023-02-19 14:49:56,944 DEBUG Engine.console] No logger_handler or orig_stream was detected
+[2023-02-19 14:49:56,944 DEBUG Engine.Configuration] Dumping YAML config into C:\projects\assurity\2023-02-19_14-48-52.080661\effective.yml
+[2023-02-19 14:49:56,960 DEBUG Engine.Configuration] Dumping JSON config into C:\projects\assurity\2023-02-19_14-48-52.080661\effective.json
+[2023-02-19 14:49:56,960 INFO Engine] Post-processing...
+[2023-02-19 14:49:56,960 DEBUG Engine.local] Post-process jmeter/s1
+[2023-02-19 14:49:56,960 DEBUG Engine] Add existing artifact (move=True): C:\projects\assurity\modified_assurity-assignment.jmx
+[2023-02-19 14:49:56,960 DEBUG Engine] Moving C:\projects\assurity\modified_assurity-assignment.jmx to C:\projects\assurity\2023-02-19_14-48-52.080661\modified_assurity-assignment.jmx
+[2023-02-19 14:49:56,960 DEBUG Engine.jmeter.JTLReader] Buffer len: 1; Known errors count: 1
+[2023-02-19 14:49:56,960 DEBUG Engine.jmeter.JTLReader] Aggregating: 1676810995, 1 in buffer
+[2023-02-19 14:49:56,960 DEBUG Engine.jmeter.JTLReader] Buffer len: 0; Known errors count: 1
+[2023-02-19 14:49:56,960 DEBUG Engine.consolidator] Consolidator buffer[2]: dict_keys([1676810988, 1676810995])
+[2023-02-19 14:49:56,960 DEBUG Engine.consolidator] Merging into 1676810988
+[2023-02-19 14:49:56,960 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2023-02-19 14:49:56,960 DEBUG Engine.consolidator] Processed datapoint: 1676810988/ConsolidatingAggregator@2537686291408
+[2023-02-19 14:49:56,960 DEBUG Engine.consolidator] Merging into 1676810995
+[2023-02-19 14:49:56,960 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2023-02-19 14:49:56,975 DEBUG Engine.consolidator] Processed datapoint: 1676810995/ConsolidatingAggregator@2537686291408
+[2023-02-19 14:49:56,975 INFO Engine.final-stats] Test duration: 0:01:01
+[2023-02-19 14:49:56,975 INFO Engine.final-stats] Samples count: 19, 5.26% failures
+[2023-02-19 14:49:56,975 INFO Engine.final-stats] Average times: total 0.412, latency 0.000, connect 0.030
+[2023-02-19 14:49:56,975 INFO Engine.final-stats] Percentiles:
++---------------+---------------+
+| Percentile, % | Resp. Time, s |
++---------------+---------------+
+|           0.0 |           0.0 |
+|          50.0 |         0.518 |
+|          90.0 |         0.587 |
+|          95.0 |          0.87 |
+|          99.0 |          0.87 |
+|          99.9 |          0.87 |
+|         100.0 |          0.87 |
++---------------+---------------+
+[2023-02-19 14:49:56,975 INFO Engine.final-stats] Request label stats:
++----------------------+--------+--------+--------+--------------------------+
+| label                | status |   succ | avg_rt | error                    |
++----------------------+--------+--------+--------+--------------------------+
+| GET Category Details |  FAIL  | 94.74% |  0.412 | CanRelist value is false |
++----------------------+--------+--------+--------+--------------------------+
+[2023-02-19 14:49:56,975 DEBUG Engine.console] No logger_handler or orig_stream was detected
+[2023-02-19 14:49:56,975 WARNING Engine.passfail] Alert: p90>500ms for 1 sec
+[2023-02-19 14:49:56,975 DEBUG Engine.passfail] 1676810995 Failed: p90>500ms for 1 sec: True
+[2023-02-19 14:49:56,975 WARNING Engine.passfail] Failed: p90>500ms for 1 sec
+[2023-02-19 14:49:56,975 DEBUG Engine] post_process: Failed: p90>500ms for 1 sec
+[2023-02-19 14:49:56,982 DEBUG Engine.Configuration] Dumping YAML config into C:\projects\assurity\2023-02-19_14-48-52.080661\effective.yml
+[2023-02-19 14:49:56,982 DEBUG Engine.Configuration] Dumping JSON config into C:\projects\assurity\2023-02-19_14-48-52.080661\effective.json
+[2023-02-19 14:49:56,991 WARNING root] Automated shutdown
+[2023-02-19 14:49:56,991 DEBUG root] AutomatedShutdown: Failed: p90>500ms for 1 sec
+  File "C:\Users\Rob.Hansen\AppData\Local\Programs\Python\Python311\Lib\site-packages\bzt\cli.py", line 283, in perform
+    self.engine.post_process()
+  File "C:\Users\Rob.Hansen\AppData\Local\Programs\Python\Python311\Lib\site-packages\bzt\engine\engine.py", line 370, in post_process
+    reraise(exc_info, exc_value)
+  File "C:\Users\Rob.Hansen\AppData\Local\Programs\Python\Python311\Lib\site-packages\bzt\utils.py", line 106, in reraise
+    raise exc
+  File "C:\Users\Rob.Hansen\AppData\Local\Programs\Python\Python311\Lib\site-packages\bzt\engine\engine.py", line 356, in post_process
+    module.post_process()
+  File "C:\Users\Rob.Hansen\AppData\Local\Programs\Python\Python311\Lib\site-packages\bzt\modules\passfail.py", line 135, in post_process
+    processor.post_process()
+  File "C:\Users\Rob.Hansen\AppData\Local\Programs\Python\Python311\Lib\site-packages\bzt\modules\passfail.py", line 97, in post_process
+    raise AutomatedShutdown("%s" % crit)
+[2023-02-19 14:49:56,991 INFO root] Artifacts dir: C:\projects\assurity\2023-02-19_14-48-52.080661
+[2023-02-19 14:49:56,991 WARNING root] Done performing with code: 3
+[2023-02-19 14:49:56,991 DEBUG root] Closing log handler: C:\projects\assurity\2023-02-19_14-48-52.080661\bzt.log

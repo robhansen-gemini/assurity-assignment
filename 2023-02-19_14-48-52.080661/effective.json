@@ -254,7 +254,7 @@
   "default-executor": "jmeter",
   "env": {
    "OBJC_DISABLE_INITIALIZE_FORK_SAFETY": "YES",
-   "TAURUS_ARTIFACTS_DIR": "C:\\projects\\assurity\\2023-02-19_14-41-17.848558"
+   "TAURUS_ARTIFACTS_DIR": "C:\\projects\\assurity\\2023-02-19_14-48-52.080661"
   }
  },
  "provisioning": "local",
