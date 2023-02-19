@@ -4,13 +4,13 @@ This repository was created in response to a technical assignment from Assurity.
 ## Prerequisites
 
 To enable auto performance testing for JMeter, we can use Taurus which gives us pass/fail criteria.
-Install `Taurus` locally -> Following the installation directions here: https://gettaurus.org/install/Installation/
+Install `Taurus` locally -> following the installation directions here: https://gettaurus.org/install/Installation/
 
 Ensure both docker and docker-compose are installed
 
 Ensure jmeter is installed, and that the path `apache-jmeter-5.5\bin` has been added to local environment variables
 
-For dashboarding, git clone the Grafana/InfluxDB docker based solution shown here to run Grafana locally:
+For dashboarding through a local instance of Grafana, clone this Grafana/InfluxDB docker based solution:
 https://github.com/testsmith-io/jmeter-influxdb-grafana-docker
 
 
@@ -40,7 +40,7 @@ Once Grafana opens, click `Browse Dashboards` and select `JMeter Dashboard`
 `Note:` A listener has been configured in the jmx script which sends the JMeter performance data to the local Grafana instance
 
 
-In order to run for continuos integration, run the following command which fails the test automatically if the P90 response time is greater than 500ms
+In order to run for continuous integration, run the following command which fails the test automatically if there are failures in the script or the P90 response time is greater than 500ms
 ```bash
 bzt taurus-run.yml passfail.yml
 ```
