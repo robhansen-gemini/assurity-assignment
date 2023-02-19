@@ -47,25 +47,35 @@ bzt taurus-run.yml passfail.yml
 
 The pass/fail criteria fails the test automatically if there are failures in the script, or if the P90 response time is greater than 500ms
 
-## Report - Observations
+## Report
 
-Even though a constant throughput timer set the number of samples to 10 per minute, a total of 33 transactions were completed.
-The througput timer needs more time over which to average a constant 10 transactions per minute as specified in the brief.
+
+**General Observations**
+
+Even though a constant throughput timer set the number of samples to 10 per minute, during a 1 minute test a total of 33 transactions were completed.
+The throughput timer needs more time over which to average a constant 10 transactions per minute as specified in the brief.
 There were 2 failed requests and this represents a 6.06 failure rate.
 
   ![](report/graph-1.png)
 
 The graph shows a total of 5 vusers active on the system during the test.
 
+
+**Errors**
+
 The failures were caused by the assertion of the CanRelist value being false:
 
   ![](report/graph-2.png)
+
+
+**Percentile response times**
 
 Percentile response times for the GET Category Details API call are shown below:
 
   ![](report/graph-3.png)
 
 For this particular run, the P90 value was measured to be 1103ms.
+
 
 **Latencies from South Africa**
 
