@@ -10,7 +10,7 @@ Ensure both docker and docker-compose are installed
 
 Ensure jmeter is installed, and that the path `apache-jmeter-5.5\bin` has been added to local environment variables
 
-For dashboarding through a local instance of Grafana, clone this Grafana/InfluxDB docker based solution:
+For dashboarding through a local instance of Grafana, clone this Grafana/InfluxDB docker based solution, and follow the guide to get running locally:
 https://github.com/testsmith-io/jmeter-influxdb-grafana-docker
 
 
@@ -33,14 +33,20 @@ jmeter -f -n -t assurity-assignment.jmx -l logs\run.jtl -Jthreads=5 -Jrampup=5 -
 One way of viewing the test results is to navigate to the logs folder in the root of the solution and open `index.html`
 
 
-You can also view the Grafana Dashboard using this url: http://localhost:3000/?orgId=1
+You can also view the results in the Grafana Dashboard using this url: http://localhost:3000/?orgId=1 and selecting the appropriate run
 
 Once Grafana opens, click `Browse Dashboards` and select `JMeter Dashboard`
 
 `Note:` A listener has been configured in the jmx script which sends the JMeter performance data to the local Grafana instance
 
 
-In order to run for continuous integration, run the following command which fails the test automatically if there are failures in the script or the P90 response time is greater than 500ms
+In order to run for continuous integration, run the following command:
 ```bash
 bzt taurus-run.yml passfail.yml
 ```
+
+The pass/fail criteria fails the test automatically if there are failures in the script, or if the P90 response time is greater than 500ms
+
+## Observations from the Report located in logs\index.html
+
+  ![](logs/report/graph-1.png)
