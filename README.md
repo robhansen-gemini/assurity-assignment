@@ -55,11 +55,19 @@ There were 2 failed requests and this represents a 6.06 failure rate.
 
   ![](report/graph-1.png)
 
+The graph shows a total of 5 vusers active on the system during the test.
 
 The failures were caused by the assertion of the CanRelist value being false:
 
   ![](report/graph-2.png)
 
+Percentile response times for the GET Category Details API call are shown below:
 
-  
+  ![](report/graph-3.png)
+
+For this particular run, the P90 value was measured to be 1103ms.
+
+
+
+
 
