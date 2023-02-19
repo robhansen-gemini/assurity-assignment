@@ -30,9 +30,9 @@ Navigate to the root directory where the project was cloned, and run this comman
 jmeter -f -n -t assurity-assignment.jmx -l logs\run.jtl -Jthreads=5 -Jrampup=5 -Jduration=60 -Jthroughput=10.0 -e -o logs
 ```
 
-The raw data used as input into the script is located in the root in a file called `cat_id.txt`
+The raw data used as input into the script is located in the root, named `cat_id.txt`
 
-Once the test is complete, you can view the test results by navigating to the logs folder in the root of the solution and opening `index.html`
+Once the test is complete, you can view the test results by navigating to the `logs` folder in the root of the solution and opening `index.html`
 
 
 You can also view the results in the Grafana Dashboard using this url: http://localhost:3000/?orgId=1 and selecting the appropriate run (once Grafana opens, click `Browse Dashboards` and select `JMeter Dashboard`)
