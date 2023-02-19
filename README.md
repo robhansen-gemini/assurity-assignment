@@ -31,4 +31,5 @@ jmeter -f -n -t assurity-assignment.jmx -l logs\run.jtl -Jthreads=5 -Jrampup=5 -
 
 View Dashboard using this url: http://localhost:3000/?orgId=1
 
-Once Grafana opens, click to browse dashboards and select JMeter Dashboard
+Once Grafana opens, click `Browse Dashboards` and select `JMeter Dashboard`
+Can also view test results by navigating to logs folder adn opening `index.html`
