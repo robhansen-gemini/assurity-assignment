@@ -1,0 +1,11 @@
+---
+execution:
+- scenario: s1
+reporting:
+- criteria:
+  - p90>500ms, stop as failed
+  module: passfail
+scenarios:
+  s1:
+    script: assurity-assignment.jmx
+
