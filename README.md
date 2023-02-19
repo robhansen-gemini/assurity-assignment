@@ -30,7 +30,9 @@ Navigate to the root directory where the project was cloned, and run this comman
 jmeter -f -n -t assurity-assignment.jmx -l logs\run.jtl -Jthreads=5 -Jrampup=5 -Jduration=60 -Jthroughput=10.0 -e -o logs
 ```
 
-One way of viewing the test results is to navigate to the logs folder in the root of the solution and open `index.html`
+The raw data used as input into the script is located in the root in a file called `cat_id.txt`
+
+Once the test is complete, you can view the test results by navigating to the logs folder in the root of the solution and opening `index.html`
 
 
 You can also view the results in the Grafana Dashboard using this url: http://localhost:3000/?orgId=1 and selecting the appropriate run (once Grafana opens, click `Browse Dashboards` and select `JMeter Dashboard`)
@@ -66,9 +68,13 @@ Percentile response times for the GET Category Details API call are shown below:
 For this particular run, the P90 value was measured to be 1103ms.
 
 The reason the test failed the p90 response time assertion is because of the high latency that exists between South Africa and New Zealand (where the server is located).
-Most of the time of the call is taken up by network latency:
+Most of the time of the call is taken up by network latency, and this behaviour can easily be seen in the next 2 graphs:
 
   ![](report/graph-4.png)
+  ![](report/graph-5.png)
+
+
+Latency is defined as the time from just before sending the request to just after receiving the first part of the response, whereas load time is the time from just before sending the request to just after receiving the last part of the response, and therefore includes server processing time.
 
 
 
