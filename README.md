@@ -33,9 +33,7 @@ jmeter -f -n -t assurity-assignment.jmx -l logs\run.jtl -Jthreads=5 -Jrampup=5 -
 One way of viewing the test results is to navigate to the logs folder in the root of the solution and open `index.html`
 
 
-You can also view the results in the Grafana Dashboard using this url: http://localhost:3000/?orgId=1 and selecting the appropriate run
-
-Once Grafana opens, click `Browse Dashboards` and select `JMeter Dashboard`
+You can also view the results in the Grafana Dashboard using this url: http://localhost:3000/?orgId=1 and selecting the appropriate run (once Grafana opens, click `Browse Dashboards` and select `JMeter Dashboard`)
 
 `Note:` A listener has been configured in the jmx script which sends the JMeter performance data to the local Grafana instance
 
@@ -66,6 +64,11 @@ Percentile response times for the GET Category Details API call are shown below:
   ![](report/graph-3.png)
 
 For this particular run, the P90 value was measured to be 1103ms.
+
+The reason the test failed the p90 response time assertion is because of the high latency that exists between South Africa and New Zealand (where the server is located).
+Most of the time of the call is taken up by network latency:
+
+  ![](report/graph-4.png)
 
 
 
