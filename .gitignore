@@ -1,3 +1,3 @@
 *.jtl
 2023-*
-jmeter.log
+*.log
