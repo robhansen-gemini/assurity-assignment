@@ -1,0 +1,11 @@
+execution:
+- scenario: s1
+  criteria:
+  - p90>500ms for 10s
+
+scenarios:
+  s1:
+    script: assurity-assignment.jmx
+  
+reporting:
+- module: passfail # this is to enable passfail module
