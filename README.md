@@ -67,14 +67,16 @@ Percentile response times for the GET Category Details API call are shown below:
 
 For this particular run, the P90 value was measured to be 1103ms.
 
-The reason the test failed the p90 response time assertion is because of the high latency that exists between South Africa and New Zealand (where the server is located).
+**Latencies from South Africa**
+
+The reason the test failed NFR-04, which states that 90 percent of the times the API is expected to perform within 500ms, is because of the high latency that exists between South Africa and New Zealand (where the server is located).
 Most of the time of the call is taken up by network latency, and this behaviour can easily be seen in the next 2 graphs:
 
   ![](report/graph-4.png)
   ![](report/graph-5.png)
 
 
-Latency is defined as the time from just before sending the request to just after receiving the first part of the response, whereas load time is the time from just before sending the request to just after receiving the last part of the response, and therefore includes server processing time.
+Latency is defined as the time from just before sending the request to just after receiving the first part of the response, whereas response time is the time from just before sending the request to just after receiving the last part of the response, and therefore includes server processing time. The graphs show that server processing time only adds a fraction of additional time to the request (<10ms).
 
 
 
