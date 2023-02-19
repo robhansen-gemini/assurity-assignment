@@ -10,10 +10,8 @@ Ensure both docker and docker-compose are installed
 
 Ensure jmeter is installed, and that the path `apache-jmeter-5.5\bin` has been added to local environment variables
 
-For dashboarding, git clone the Grafana/InfluxDB docker based solution shown here:
+For dashboarding, git clone the Grafana/InfluxDB docker based solution shown here to run Grafana locally:
 https://github.com/testsmith-io/jmeter-influxdb-grafana-docker
-
-Follow the directions to run the monitoring solution on local host
 
 
 **Installation**
