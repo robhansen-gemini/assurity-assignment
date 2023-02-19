@@ -173,7 +173,7 @@ $(document).ready(function() {
     });
 
     // Creates APDEX table
-    createTable($("#apdexTable"), {"supportsControllersDiscrimination": true, "overall": {"data": [0.5757575757575758, 500, 1500, "Total"], "isController": false}, "titles": ["Apdex", "T (Toleration threshold)", "F (Frustration threshold)", "Label"], "items": [{"data": [0.5757575757575758, 500, 1500, "GET Category Details"], "isController": false}]}, function(index, item){
+    createTable($("#apdexTable"), {"supportsControllersDiscrimination": true, "overall": {"data": [0.6060606060606061, 500, 1500, "Total"], "isController": false}, "titles": ["Apdex", "T (Toleration threshold)", "F (Frustration threshold)", "Label"], "items": [{"data": [0.6060606060606061, 500, 1500, "GET Category Details"], "isController": false}]}, function(index, item){
         switch(index){
             case 0:
                 item = item.toFixed(3);
@@ -187,7 +187,7 @@ $(document).ready(function() {
     }, [[0, 0]], 3);
 
     // Create statistics table
-    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 14, 1, 7.142857142857143, 543.4999999999999, 493, 799, 522.5, 683.0, 799.0, 799.0, 0.2434740265386689, 0.6827326916053634, 0.13005887941079286], "isController": false}, "titles": ["Label", "#Samples", "FAIL", "Error %", "Average", "Min", "Max", "Median", "90th pct", "95th pct", "99th pct", "Transactions/s", "Received", "Sent"], "items": [{"data": ["GET Category Details", 33, 2, 6.0606060606060606, 462.5757575757576, 0, 799, 518.0, 577.8000000000001, 799.0, 799.0, 0.573384532517853, 1.364231664726426, 0.2598827385192779], "isController": false}]}, function(index, item){
+    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 14, 1, 7.142857142857143, 740.0714285714284, 486, 1762, 670.5, 1432.5, 1762.0, 1762.0, 0.23944721899158514, 0.6711069516658684, 0.127907840613669], "isController": false}, "titles": ["Label", "#Samples", "FAIL", "Error %", "Average", "Min", "Max", "Median", "90th pct", "95th pct", "99th pct", "Transactions/s", "Received", "Sent"], "items": [{"data": ["GET Category Details", 33, 2, 6.0606060606060606, 629.2727272727273, 0, 1762, 571.0, 1103.0, 1762.0, 1762.0, 0.5639097744360902, 1.3410212320574162, 0.2555883672248804], "isController": false}]}, function(index, item){
         switch(index){
             // Errors pct
             case 3:

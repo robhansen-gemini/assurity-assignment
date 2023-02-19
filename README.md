@@ -49,4 +49,4 @@ The pass/fail criteria fails the test automatically if there are failures in the
 
 ## Observations from the Report located in logs\index.html
 
-  ![](logs/report/graph-1.png)
+  ![](report/graph-1.png)
