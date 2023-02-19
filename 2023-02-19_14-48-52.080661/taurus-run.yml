@@ -1,6 +1,0 @@
-execution:
-- scenario: s1
-
-scenarios:
-  s1:
-    script: assurity-assignment.jmx

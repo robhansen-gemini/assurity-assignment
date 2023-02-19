@@ -36,6 +36,7 @@ One way of viewing the test results is to navigate to the logs folder in the roo
 
 You can also view the Grafana Dashboard using this url: http://localhost:3000/?orgId=1
 Once Grafana opens, click `Browse Dashboards` and select `JMeter Dashboard`
+
 `Note: A listener has been configured in the jmx script which sends the JMeter performance data to the local Grafana instance`
 
 
